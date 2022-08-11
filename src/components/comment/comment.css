@@ -1,0 +1,59 @@
+
+.commentInnerContainter {
+  height: 100px;
+  overflow-y: auto;
+  margin-left: 10px;
+  padding-top: 15px;
+  border-top: 10px solid rgb(234, 234, 234);
+}
+
+.commentList {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.commentList img {
+  padding-right: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.commentText {
+  padding: 7px 0;
+}
+
+.addNewComment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+
+.profileImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 10px;
+}
+
+.textField {
+    width: 80%;
+}
+
+.commentSubmitButton {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #d000d0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

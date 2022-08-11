@@ -1,0 +1,10 @@
+.feed {
+  flex: 6
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+.feedWrapper {
+  padding: 20px;
+}
